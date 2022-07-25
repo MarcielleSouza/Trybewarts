@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+  background-size: 100%;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+body {
+  background-image: url(images/background.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  backdrop-filter: blur(3px);
+  color: black;
+}
+
+.header {
+  background-color:rgb(50, 167, 145);
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  justify-content: space-between;
+}
+
+#trybewarts-header-title {
+  display: flex;
+  position: relative;
+  align-items: center;
+  color: bla
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+#emailLogin {
+  border-radius: 5px;
+  padding: 6px;
+  margin-right: 10px;
+}
+
+#passwordLogin {
+  border-radius: 5px;
+  padding: 6px;
+  margin-right: 10px;
+}
+
+#buttonLogin {
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.trybewarts-header-logo {
+  width: 60px;
+  margin-left: 20px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  margin-left: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border: 1px solid rgb(50, 167, 145);
+  padding: 25px;
+}
+
+main {
+  display: flex;
+  font-size: 20px;
+}
+
+#input-name {
+  border-radius: 5px;
+  padding: 7px;
+  width: 270px;
+  font-size: 17px;
+}
+
+#input-lastname {
+  border-radius: 5px;
+  padding: 7px;
+  width: 270px;
+  font-size: 17px;
+}
+
+#input-email {
+  border-radius: 5px;
+  padding: 7px;
+  width: 270px;
+  margin-right: 60px;
+  font-size: 17px;
+}
+
+#house {
+  border-radius: 5px;
+  padding: 7px;
+  width: 110px;
+  font-size: 17px;
+  margin-right: 52px;
+}
+
+.alinhandoInput {
+  margin: auto;
+  padding: 10px;
+}
+
+.alinhando-email-casa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#label-family {
+  line-height: 50px;
+  display: flex;
+  flex-basis: 100%;
+}
+
+#label-content {
+  line-height: 50px;
+  display: flex;
+  flex-basis: 100%;
+}
+
+#label-rate {
+  margin-bottom: 15px;
+  flex-basis: 100%;
+}
+
+#avaliation-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 35px 0;
+  flex-wrap: wrap;
+}
+
+#subject-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10px 0;
+}
+
+#family-container {
+  display: flex;
+  flex-direction: column;
+  line-height: 35px;
+  margin: 15px 0;
+}
+
+#label-infos {
+  margin-top: 5px;
+}
+
+#textarea {
+  margin-top: 8px;
+}
+
+#counter {
+  font-size: 17px;
+  margin-top: 5px;
+  text-align: right;
+  margin-right: 15px;
+}
+
+#rodape {
+  background-color: rgb(50, 167, 145);
+  color: white;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#submit-btn {
+  width: 100px;
+  padding: 8px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
